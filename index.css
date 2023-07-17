@@ -110,8 +110,14 @@ canvas {
   align-items: center;
   font-family: 'Poppins', sans-serif;
 }
-
-.arrowSection {
+.arrowSection{
+  width: 100%;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.arrowSectionSpeed {
   align-self: flex-end;
   margin-right: 50px;
   display: flex;
